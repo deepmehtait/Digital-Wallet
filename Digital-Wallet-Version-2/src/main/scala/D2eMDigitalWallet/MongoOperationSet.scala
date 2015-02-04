@@ -14,7 +14,7 @@ class MongoOperationSet {
 
     @Bean
     def mongoDbFactory() : MongoDbFactory = {
-      new SimpleMongoDbFactory(new MongoClient(new MongoClientURI("/* Enter your Mongolab authentcation url*/")),"digital-wallet-app")
+      new SimpleMongoDbFactory(new MongoClient(new MongoClientURI("Enter your Mongolab authentcation url")),"Enter your Mongolab document name")
 
     }
   @Bean
